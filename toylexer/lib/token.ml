@@ -17,3 +17,4 @@ let string_of_token = function
   | ID(s) -> "ID(" ^ s ^ ")"
   | CONST(s) -> "CONST(" ^ s ^ ")"
   | EOF -> "EOF"
+ 
