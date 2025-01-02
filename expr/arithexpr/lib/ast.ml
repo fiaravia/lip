@@ -9,3 +9,9 @@ type expr =
   | Succ of expr
   | Pred of expr
   | IsZero of expr
+
+let is_value = function
+  | True | False | Zero -> true
+  | _ -> false
+
+  type exprval = Bool of bool | Nat of int
